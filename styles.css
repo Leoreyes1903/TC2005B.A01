@@ -1,0 +1,182 @@
+header{
+    display: flex;
+    align-items: center; /* Centrar verticalmente los elementos */
+    font-size: 1.5vw;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+.himg {
+    max-width: 10%;
+    height: auto;
+    margin-left: auto;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none; 
+    width: 80%;
+    
+}
+
+
+/* Segunda pagina */
+
+.Segundoscuadros{
+    background-color: bisque;
+    width: 70%;
+    font-size: 2vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+
+}
+
+
+.Primercuadros{
+    width: 30%;
+    font-size: 2vw;
+    background-color: bisque;
+    border: 1px  solid black;
+
+}
+
+.Primercuadros h2{
+    text-align: center;
+}
+
+
+
+
+/* Tercer pagina */
+.Tercerpag{
+    background-color:blanchedalmond;
+}
+
+.imagenesem{
+    display: flex;
+    justify-content: center;
+}
+
+.imagenesem img{
+    flex: 1;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.tercerdiv{
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+
+}
+.tercerdiv p{
+    font-size: 2vw;
+}
+
+.tit3{
+    font-size: 3vw;
+}
+
+.bloqueaside{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    
+}
+
+.bloqueaside h2{
+    font-size: 2vw;
+}
+
+.bloqueaside a{
+    font-size: 1.5vw;
+}
+
+/* Tercer pagina */
+
+
+.container{
+    justify-content: center;
+    display: flex;
+    background-color: gray;
+    height:100%;
+    padding: 150px;
+}
+
+.text{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.half{
+    
+    flex: 1;
+
+}
+
+.half ul{
+    list-style-type: none;
+    width: 40%;
+
+}
+
+.half li{
+    color: white;
+    font-size: 1.5vw;
+    padding-bottom: 100px;
+}
+
+.half1{
+    flex: 1;
+    
+}
+
+.map-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}   
+
+
+
+/* Footer */
+
+footer{
+    background-color: black;
+    display: flex;
+    
+}
+
+footer img{
+    width: 20%;
+
+}
+
+.footer-right a{
+    color: white;
+    margin-right: 100px;
+    font-size: 1.5vw;
+}
+
+.footer-content{
+    flex: 1;
+    text-align: center;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; 
+}
+
+ 
